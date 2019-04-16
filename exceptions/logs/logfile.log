@@ -1,0 +1,72 @@
+[ERROR] 2019-04-16 10:26:52.122 [main] Application - Failed to format the string this to a number
+[ERROR] 2019-04-16 10:34:24.017 [main] Application - Failed to format the string this to a number
+[TRACE] 2019-04-16 10:34:52.490 [main] Application - Enter
+[TRACE] 2019-04-16 10:34:52.499 [main] Application - Exit
+[ERROR] 2019-04-16 10:34:52.505 [main] Application - Failed to format the string this to a number
+[TRACE] 2019-04-16 10:35:46.264 [main] Application - Enter
+[TRACE] 2019-04-16 10:35:46.272 [main] Application - Exit with(5)
+[ERROR] 2019-04-16 10:35:46.276 [main] Application - Failed to format the string this to a number
+[TRACE] 2019-04-16 10:36:32.493 [main] Application - Enter
+[TRACE] 2019-04-16 10:36:32.500 [main] Application - Exit with(5)
+[ERROR] 2019-04-16 10:36:32.504 [main] Application - Catching
+java.lang.NumberFormatException: For input string: "this"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_191]
+	at com.example.exceptions.Application.main(Application.java:27) [classes/:?]
+[ERROR] 2019-04-16 10:36:32.512 [main] Application - Failed to format the string this to a number
+[ERROR] 2019-04-16 10:38:04.227 [main] Application - Catching
+java.lang.NumberFormatException: For input string: "this"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_191]
+	at com.example.exceptions.Application.main(Application.java:27) [classes/:?]
+[ERROR] 2019-04-16 10:38:04.247 [main] Application - Failed to format the string this to a number
+[TRACE] 2019-04-16 10:43:11.543 [main] Application - Enter
+[TRACE] 2019-04-16 10:43:11.552 [main] Application - Exit with(5)
+[ERROR] 2019-04-16 10:43:11.557 [main] Application - Catching
+java.lang.NumberFormatException: For input string: "10.3"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_191]
+	at com.example.exceptions.Application.main(Application.java:27) [classes/:?]
+[ERROR] 2019-04-16 10:43:11.568 [main] Application - Failed to format the string 10.3 to a number
+[ERROR] 2019-04-16 10:43:22.284 [main] Application - Catching
+java.lang.NumberFormatException: For input string: "10.3"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_191]
+	at com.example.exceptions.Application.main(Application.java:26) [classes/:?]
+[ERROR] 2019-04-16 10:43:22.302 [main] Application - Failed to format the string 10.3 to a number
+[TRACE] 2019-04-16 13:20:33.245 [main] Application - Exit with(10.5)
+[TRACE] 2019-04-16 13:21:30.027 [main] Application - Enter 15.2
+[TRACE] 2019-04-16 13:21:30.049 [main] Application - Exit with(15.2)
+[TRACE] 2019-04-16 13:30:05.354 [main] Application - Enter c4
+[ERROR] 2019-04-16 13:30:05.368 [main] Application - Catching
+java.lang.NumberFormatException: For input string: "c4"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043) ~[?:1.8.0_191]
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:1.8.0_191]
+	at java.lang.Double.parseDouble(Double.java:538) ~[?:1.8.0_191]
+	at com.example.exceptions.Application.convertToMoney(Application.java:43) [classes/:?]
+	at com.example.exceptions.Application.main(Application.java:55) [classes/:?]
+[ERROR] 2019-04-16 13:30:05.378 [main] Application - Failed to format the string c4 to a number
+[TRACE] 2019-04-16 13:30:59.183 [main] Application - Enter d
+[ERROR] 2019-04-16 13:30:59.196 [main] Application - Catching
+java.lang.NumberFormatException: For input string: "d"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043) ~[?:1.8.0_191]
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:1.8.0_191]
+	at java.lang.Double.parseDouble(Double.java:538) ~[?:1.8.0_191]
+	at com.example.exceptions.Application.convertToMoney(Application.java:43) [classes/:?]
+	at com.example.exceptions.Application.main(Application.java:55) [classes/:?]
+[ERROR] 2019-04-16 13:30:59.206 [main] Application - Failed to format the string d to a number
+[TRACE] 2019-04-16 13:32:51.180 [main] Application - Enter a
+[ERROR] 2019-04-16 13:32:51.189 [main] Application - Catching
+java.lang.NumberFormatException: For input string: "a"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043) ~[?:1.8.0_191]
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:1.8.0_191]
+	at java.lang.Double.parseDouble(Double.java:538) ~[?:1.8.0_191]
+	at com.example.exceptions.Application.convertToMoney(Application.java:47) [classes/:?]
+	at com.example.exceptions.Application.main(Application.java:59) [classes/:?]
+[ERROR] 2019-04-16 13:32:51.199 [main] Application - Failed to format the string a to a number
+[TRACE] 2019-04-16 13:40:17.896 [main] Application - Enter 15
+[TRACE] 2019-04-16 13:40:17.909 [main] Application - Exit with(15.0)
